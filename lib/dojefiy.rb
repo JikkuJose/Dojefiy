@@ -1,5 +1,7 @@
 require "dojefiy/version"
 
 module Dojefiy
-  # Your code goes here...
+  def self.process( str )
+    # Todo: Process str
+  end
 end

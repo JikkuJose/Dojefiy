@@ -11,5 +11,15 @@ describe Dojefiy do
       expect( output.downcase ).eq to output
     end
 
+    it 'combines nouns with doje adjectives' do
+      expect(output).to match /so grandma\./i
+      expect(output).to match /such sweater\./i
+      expect(output).to match /very christmas\./i
+    end
+
+    it "always appends 'wow.'" do
+      expect(output).to end_with 'wow.'
+    end
+
   end
 end

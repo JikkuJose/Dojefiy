@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'dojefiy/all'
+
+ARGV.dojefiy.each(&method(:puts))

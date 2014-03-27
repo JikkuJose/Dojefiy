@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Dojefiy::VERSION
   spec.authors       = ["Jikku Jose"]
   spec.email         = ["jikku+home@qucentis.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Just a gem to try gem release}
+  spec.summary       = %q{An attempt to create a Ruby gem based on Quick Left's tutorial}
   spec.homepage      = ""
   spec.license       = "MIT"
 

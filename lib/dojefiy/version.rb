@@ -1,3 +1,3 @@
-module Dojefiy
-  VERSION = "0.0.1"
+class Dojefiy
+  VERSION = "1.0.0"
 end

@@ -8,13 +8,13 @@ describe Dojefiy do
     let (:output) { subject.process(input) }
 
     it 'converts to lowercase' do
-      expect( output.downcase ).eq to output
+      expect( output.downcase ).to eq output
     end
 
     it 'combines nouns with doje adjectives' do
-      expect(output).to match /so grandma\./i
-      expect(output).to match /such sweater\./i
-      expect(output).to match /very christmas\./i
+      expect(output).to match /(so|very|much|such|many) grandma\./i
+      expect(output).to match /(so|very|much|such|many) sweater\./i
+      expect(output).to match /(so|very|much|such|many) christmas\./i
     end
 
     it "always appends 'wow.'" do
